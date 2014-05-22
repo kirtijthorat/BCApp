@@ -5,9 +5,9 @@
    use Bigcommerce\Api\Client as Bigcommerce;
 	
     Bigcommerce::configure(array(
-    'store_url' => 'https://www.trainparty.com/api/v2/',
-    'username' => 'kirti',
-    'api_key' => '1abb8c7691985cee642ad31e930533e182f212b4'
+    'store_url' => 'my_store_url',
+    'username' => 'my_username',
+    'api_key' => 'my_api_key'
     ));
     Bigcommerce_Api::setCipher('RC4-SHA')
     Bigcommerce_Api::verifyPeer(false);
